@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85F01952-F3D1-41B0-91D4-C18458F47110</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IMNativeApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B5C80592-573F-4144-9E7A-A28B01C3FDDC</key>
+		<string>https://github.corp.inmobi.com/di/iOS-SDK-IMAdMonetization.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Release/Monetization/IMNativeApp/IMNativeApp/IMNativeApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B5C80592-573F-4144-9E7A-A28B01C3FDDC</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.corp.inmobi.com/di/iOS-SDK-IMAdMonetization.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B5C80592-573F-4144-9E7A-A28B01C3FDDC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B5C80592-573F-4144-9E7A-A28B01C3FDDC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-SDK-IMAdMonetization</string>
+		</dict>
+	</array>
+</dict>
+</plist>

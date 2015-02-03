@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7C9EB5F5-EE4F-4495-9E60-F840F6886638</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Native Demo App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>97578E4B-B960-4228-9789-A495842B4908</key>
+		<string>https://github.corp.inmobi.com/di/IMNativeApp.git</string>
+		<key>B35C612300232AE8CF61D4B079B1964F1B98229C</key>
+		<string>/Users/karthik.vaddamani/Home_old/InMobi/Projects/SDK-Monetization/Release/Monetization/IMNativeApp</string>
+		<key>D5A95455-6D7B-4FDA-8434-7D8549A24218</key>
+		<string>https://github.corp.inmobi.com/di/iOS-SDK-IMAdMonetization.git</string>
+		<key>E58B7318DE18267C60E6013413B7DE477D263F19</key>
+		<string>https://github.corp.inmobi.com/di/iOS-SDK-IMAdMonetization.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IMNativeApp/Native Demo App.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>97578E4B-B960-4228-9789-A495842B4908</key>
+		<string>../../../..</string>
+		<key>B35C612300232AE8CF61D4B079B1964F1B98229C</key>
+		<string>../../..</string>
+		<key>D5A95455-6D7B-4FDA-8434-7D8549A24218</key>
+		<string>../../../../SDK - Monetization</string>
+		<key>E58B7318DE18267C60E6013413B7DE477D263F19</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>/Users/karthik.vaddamani/Home_old/InMobi/Projects/SDK-Monetization/Release/Monetization/IMNativeApp</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B35C612300232AE8CF61D4B079B1964F1B98229C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>97578E4B-B960-4228-9789-A495842B4908</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E58B7318DE18267C60E6013413B7DE477D263F19</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B35C612300232AE8CF61D4B079B1964F1B98229C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IMNativeApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D5A95455-6D7B-4FDA-8434-7D8549A24218</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SDK - Monetization</string>
+		</dict>
+	</array>
+</dict>
+</plist>

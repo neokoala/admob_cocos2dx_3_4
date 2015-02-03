@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92B1FBC31A7A5407006BDFF5 /* libAdapterInMobi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1FAE01A7A5406006BDFF5 /* libAdapterInMobi.a */; };
+		92B1FBC41A7A5407006BDFF5 /* libAdapterIAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1FAE21A7A5406006BDFF5 /* libAdapterIAd.a */; };
+		92B1FBC51A7A5407006BDFF5 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1FB051A7A5406006BDFF5 /* libGoogleAdMobAds.a */; };
+		92B1FBC61A7A5407006BDFF5 /* libInMobi-4.5.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B1FB2D1A7A5406006BDFF5 /* libInMobi-4.5.1.a */; };
+		FADC44AB176EA82000B2D5ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADC44AA176EA82000B2D5ED /* Foundation.framework */; };
+		FADC44C6176EA84500B2D5ED /* AdsAdmob.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC44C4176EA84500B2D5ED /* AdsAdmob.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FADC44A5176EA82000B2D5ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92B1FADF1A7A5406006BDFF5 /* GADInMobiExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInMobiExtras.h; sourceTree = "<group>"; };
+		92B1FAE01A7A5406006BDFF5 /* libAdapterInMobi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdapterInMobi.a; sourceTree = "<group>"; };
+		92B1FAE21A7A5406006BDFF5 /* libAdapterIAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdapterIAd.a; sourceTree = "<group>"; };
+		92B1FAF01A7A5406006BDFF5 /* GADCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
+		92B1FAF11A7A5406006BDFF5 /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		92B1FAF21A7A5406006BDFF5 /* GADCustomEventExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
+		92B1FAF31A7A5406006BDFF5 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		92B1FAF41A7A5406006BDFF5 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		92B1FAF51A7A5406006BDFF5 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
+		92B1FAF91A7A5406006BDFF5 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		92B1FAFA1A7A5406006BDFF5 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		92B1FAFB1A7A5406006BDFF5 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		92B1FAFC1A7A5406006BDFF5 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		92B1FAFD1A7A5406006BDFF5 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		92B1FAFE1A7A5406006BDFF5 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		92B1FAFF1A7A5406006BDFF5 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		92B1FB001A7A5406006BDFF5 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		92B1FB011A7A5406006BDFF5 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		92B1FB021A7A5406006BDFF5 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		92B1FB031A7A5406006BDFF5 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		92B1FB041A7A5406006BDFF5 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		92B1FB051A7A5406006BDFF5 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		92B1FB221A7A5406006BDFF5 /* IMBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBanner.h; sourceTree = "<group>"; };
+		92B1FB231A7A5406006BDFF5 /* IMBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBannerDelegate.h; sourceTree = "<group>"; };
+		92B1FB241A7A5406006BDFF5 /* IMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMConstants.h; sourceTree = "<group>"; };
+		92B1FB251A7A5406006BDFF5 /* IMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMError.h; sourceTree = "<group>"; };
+		92B1FB261A7A5406006BDFF5 /* IMIncentivisedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMIncentivisedDelegate.h; sourceTree = "<group>"; };
+		92B1FB271A7A5406006BDFF5 /* IMInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMInterstitial.h; sourceTree = "<group>"; };
+		92B1FB281A7A5406006BDFF5 /* IMInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMInterstitialDelegate.h; sourceTree = "<group>"; };
+		92B1FB291A7A5406006BDFF5 /* IMNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMNative.h; sourceTree = "<group>"; };
+		92B1FB2A1A7A5406006BDFF5 /* IMNativeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMNativeDelegate.h; sourceTree = "<group>"; };
+		92B1FB2B1A7A5406006BDFF5 /* InMobi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMobi.h; sourceTree = "<group>"; };
+		92B1FB2C1A7A5406006BDFF5 /* InMobiAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMobiAnalytics.h; sourceTree = "<group>"; };
+		92B1FB2D1A7A5406006BDFF5 /* libInMobi-4.5.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libInMobi-4.5.1.a"; sourceTree = "<group>"; };
+		FADC44A7176EA82000B2D5ED /* libPluginAdmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginAdmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADC44AA176EA82000B2D5ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FADC44C3176EA84500B2D5ED /* AdsAdmob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsAdmob.h; sourceTree = "<group>"; };
+		FADC44C4176EA84500B2D5ED /* AdsAdmob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdsAdmob.m; sourceTree = "<group>"; };
+		FADC44C7176EA85F00B2D5ED /* PluginAdmob-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PluginAdmob-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADC44A4176EA82000B2D5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADC44AB176EA82000B2D5ED /* Foundation.framework in Frameworks */,
+				92B1FBC51A7A5407006BDFF5 /* libGoogleAdMobAds.a in Frameworks */,
+				92B1FBC41A7A5407006BDFF5 /* libAdapterIAd.a in Frameworks */,
+				92B1FBC31A7A5407006BDFF5 /* libAdapterInMobi.a in Frameworks */,
+				92B1FBC61A7A5407006BDFF5 /* libInMobi-4.5.1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92B1FADD1A7A5406006BDFF5 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				92B1FADE1A7A5406006BDFF5 /* AdapterInMobi */,
+				92B1FAE11A7A5406006BDFF5 /* LibAdapterIAd-1.0.0 */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		92B1FADE1A7A5406006BDFF5 /* AdapterInMobi */ = {
+			isa = PBXGroup;
+			children = (
+				92B1FADF1A7A5406006BDFF5 /* GADInMobiExtras.h */,
+				92B1FAE01A7A5406006BDFF5 /* libAdapterInMobi.a */,
+			);
+			path = AdapterInMobi;
+			sourceTree = "<group>";
+		};
+		92B1FAE11A7A5406006BDFF5 /* LibAdapterIAd-1.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				92B1FAE21A7A5406006BDFF5 /* libAdapterIAd.a */,
+			);
+			path = "LibAdapterIAd-1.0.0";
+			sourceTree = "<group>";
+		};
+		92B1FAE41A7A5406006BDFF5 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				92B1FAE51A7A5406006BDFF5 /* GoogleMobileAdsSdkiOS-6.12.2 */,
+				92B1FB071A7A5406006BDFF5 /* InMobi-iOS-SDK-4.5.1 */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		92B1FAE51A7A5406006BDFF5 /* GoogleMobileAdsSdkiOS-6.12.2 */ = {
+			isa = PBXGroup;
+			children = (
+				92B1FAE61A7A5406006BDFF5 /* Add-ons */,
+				92B1FAF91A7A5406006BDFF5 /* GADAdMobExtras.h */,
+				92B1FAFA1A7A5406006BDFF5 /* GADAdNetworkExtras.h */,
+				92B1FAFB1A7A5406006BDFF5 /* GADAdSize.h */,
+				92B1FAFC1A7A5406006BDFF5 /* GADBannerView.h */,
+				92B1FAFD1A7A5406006BDFF5 /* GADBannerViewDelegate.h */,
+				92B1FAFE1A7A5406006BDFF5 /* GADInAppPurchase.h */,
+				92B1FAFF1A7A5406006BDFF5 /* GADInAppPurchaseDelegate.h */,
+				92B1FB001A7A5406006BDFF5 /* GADInterstitial.h */,
+				92B1FB011A7A5406006BDFF5 /* GADInterstitialDelegate.h */,
+				92B1FB021A7A5406006BDFF5 /* GADModules.h */,
+				92B1FB031A7A5406006BDFF5 /* GADRequest.h */,
+				92B1FB041A7A5406006BDFF5 /* GADRequestError.h */,
+				92B1FB051A7A5406006BDFF5 /* libGoogleAdMobAds.a */,
+			);
+			path = "GoogleMobileAdsSdkiOS-6.12.2";
+			sourceTree = "<group>";
+		};
+		92B1FAE61A7A5406006BDFF5 /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				92B1FAEF1A7A5406006BDFF5 /* Mediation */,
+			);
+			path = "Add-ons";
+			sourceTree = "<group>";
+		};
+		92B1FAEF1A7A5406006BDFF5 /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				92B1FAF01A7A5406006BDFF5 /* GADCustomEventBanner.h */,
+				92B1FAF11A7A5406006BDFF5 /* GADCustomEventBannerDelegate.h */,
+				92B1FAF21A7A5406006BDFF5 /* GADCustomEventExtras.h */,
+				92B1FAF31A7A5406006BDFF5 /* GADCustomEventInterstitial.h */,
+				92B1FAF41A7A5406006BDFF5 /* GADCustomEventInterstitialDelegate.h */,
+				92B1FAF51A7A5406006BDFF5 /* GADCustomEventRequest.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		92B1FB071A7A5406006BDFF5 /* InMobi-iOS-SDK-4.5.1 */ = {
+			isa = PBXGroup;
+			children = (
+				92B1FB211A7A5406006BDFF5 /* Libs */,
+			);
+			path = "InMobi-iOS-SDK-4.5.1";
+			sourceTree = "<group>";
+		};
+		92B1FB211A7A5406006BDFF5 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				92B1FB221A7A5406006BDFF5 /* IMBanner.h */,
+				92B1FB231A7A5406006BDFF5 /* IMBannerDelegate.h */,
+				92B1FB241A7A5406006BDFF5 /* IMConstants.h */,
+				92B1FB251A7A5406006BDFF5 /* IMError.h */,
+				92B1FB261A7A5406006BDFF5 /* IMIncentivisedDelegate.h */,
+				92B1FB271A7A5406006BDFF5 /* IMInterstitial.h */,
+				92B1FB281A7A5406006BDFF5 /* IMInterstitialDelegate.h */,
+				92B1FB291A7A5406006BDFF5 /* IMNative.h */,
+				92B1FB2A1A7A5406006BDFF5 /* IMNativeDelegate.h */,
+				92B1FB2B1A7A5406006BDFF5 /* InMobi.h */,
+				92B1FB2C1A7A5406006BDFF5 /* InMobiAnalytics.h */,
+				92B1FB2D1A7A5406006BDFF5 /* libInMobi-4.5.1.a */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		FADC449E176EA82000B2D5ED = {
+			isa = PBXGroup;
+			children = (
+				92B1FADD1A7A5406006BDFF5 /* Adapters */,
+				92B1FAE41A7A5406006BDFF5 /* Libs */,
+				FADC44C7176EA85F00B2D5ED /* PluginAdmob-Prefix.pch */,
+				FADC44C3176EA84500B2D5ED /* AdsAdmob.h */,
+				FADC44C4176EA84500B2D5ED /* AdsAdmob.m */,
+				FADC44A9176EA82000B2D5ED /* Frameworks */,
+				FADC44A8176EA82000B2D5ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADC44A8176EA82000B2D5ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADC44A7176EA82000B2D5ED /* libPluginAdmob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADC44A9176EA82000B2D5ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FADC44AA176EA82000B2D5ED /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADC44A6176EA82000B2D5ED /* PluginAdmob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADC44B5176EA82000B2D5ED /* Build configuration list for PBXNativeTarget "PluginAdmob" */;
+			buildPhases = (
+				FADC44A3176EA82000B2D5ED /* Sources */,
+				FADC44A4176EA82000B2D5ED /* Frameworks */,
+				FADC44A5176EA82000B2D5ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluginAdmob;
+			productName = PluginAdmob;
+			productReference = FADC44A7176EA82000B2D5ED /* libPluginAdmob.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADC449F176EA82000B2D5ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "cocos2d-x";
+			};
+			buildConfigurationList = FADC44A2176EA82000B2D5ED /* Build configuration list for PBXProject "PluginAdmob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FADC449E176EA82000B2D5ED;
+			productRefGroup = FADC44A8176EA82000B2D5ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADC44A6176EA82000B2D5ED /* PluginAdmob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADC44A3176EA82000B2D5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADC44C6176EA84500B2D5ED /* AdsAdmob.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FADC44B3176EA82000B2D5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FADC44B4176EA82000B2D5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADC44B6176EA82000B2D5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				DSTROOT = /tmp/PluginAdmob.dst;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PluginAdmob-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../protocols/platform/ios";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Admob\"",
+					"$(PROJECT_DIR)/Adapters/AdapterInMobi",
+					"$(PROJECT_DIR)/Adapters/LibAdapterIAd-1.0.0",
+					"$(PROJECT_DIR)/Libs/GoogleMobileAdsSdkiOS-6.12.2",
+					"$(PROJECT_DIR)/Libs/InMobi-iOS-SDK-4.5.1/Libs",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		FADC44B7176EA82000B2D5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				DSTROOT = /tmp/PluginAdmob.dst;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PluginAdmob-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../protocols/platform/ios";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Admob\"",
+					"$(PROJECT_DIR)/Adapters/AdapterInMobi",
+					"$(PROJECT_DIR)/Adapters/LibAdapterIAd-1.0.0",
+					"$(PROJECT_DIR)/Libs/GoogleMobileAdsSdkiOS-6.12.2",
+					"$(PROJECT_DIR)/Libs/InMobi-iOS-SDK-4.5.1/Libs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADC44A2176EA82000B2D5ED /* Build configuration list for PBXProject "PluginAdmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC44B3176EA82000B2D5ED /* Debug */,
+				FADC44B4176EA82000B2D5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADC44B5176EA82000B2D5ED /* Build configuration list for PBXNativeTarget "PluginAdmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC44B6176EA82000B2D5ED /* Debug */,
+				FADC44B7176EA82000B2D5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADC449F176EA82000B2D5ED /* Project object */;
+}
