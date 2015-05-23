@@ -211,7 +211,7 @@ public class AdsAdmob implements InterfaceAds {
 					LogE("Error during add test device", e);
 				}
 				
-				//adView.setAdListener(new AdmobAdsListener());
+				adView.setAdListener(new AdmobAdsListener());
 				adView.loadAd(reqBuilder.build());
 
 				if (null == mWm) {
